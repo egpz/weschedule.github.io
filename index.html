@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Group Scheduler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f9;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    section {
+      padding: 1.5rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section h2 {
+      margin-top: 1rem;
+      color: #333;
+    }
+    section p {
+      margin-bottom: 1rem;
+    }
+    code {
+      background: #e8e8e8;
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+    }
+    .screenshot img {
+      max-width: 100%;
+      margin: 1rem 0;
+      border: 1px solid #ddd;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Study Group Scheduler</h1>
+</header>
+
+<section>
+  <h2>About the Project</h2>
+  <p>
+    The <strong>Study Group Scheduler</strong> was created to simplify the process of coordinating study sessions and meetings among groups of people. Inspired by the challenges of aligning schedules for student projects, this tool is designed to find overlapping time slots efficiently, accommodate event durations, and even generate Google Calendar events.
+  </p>
+  <p>
+    The ultimate goal of the project is to create an intuitive, user-friendly scheduling tool that integrates seamlessly with other productivity platforms like Google Calendar.
+  </p>
+</section>
+
+<section>
+  <h2>Key Features</h2>
+  <ul>
+    <li>Find overlapping availability for multiple participants.</li>
+    <li>Set a custom duration for events to get precise intervals.</li>
+    <li>Suggest alternative time slots for shorter overlaps.</li>
+    <li>Generate Google Calendar events and send invites via email.</li>
+  </ul>
+  <div class="screenshot">
+    <h3>Screenshot</h3>
+    <img src="screenshot.png" alt="Study Group Scheduler Screenshot">
+  </div>
+</section>
+
+<section>
+  <h2>Installation and Usage</h2>
+  <h3>Requirements</h3>
+  <p>Ensure you have Python 3.8 or higher installed on your system.</p>
+  <h3>Installation</h3>
+  <pre>
+    <code>
+# Clone the repository
+git clone https://github.com/yourusername/study-group-scheduler.git
+cd study-group-scheduler
+
+# Install dependencies
+pip install -r requirements.txt
+    </code>
+  </pre>
+  <h3>Usage</h3>
+  <p>Run the tool with the following command:</p>
+  <pre>
+    <code>python scheduler/scheduler.py</code>
+  </pre>
+  <h4>Example:</h4>
+  <p>
+    Enter availability for each participant, set an event title, choose a duration if needed, and get suggestions for overlapping times. If Google Calendar integration is enabled, you'll also receive an email invitation.
+  </p>
+</section>
+
+<section>
+  <h2>Contributing</h2>
+  <p>
+    We welcome contributions to enhance the Study Group Scheduler! Here's how you can help:
+  </p>
+  <ul>
+    <li>Submit bug reports and feature requests via the <a href="https://github.com/yourusername/study-group-scheduler/issues">GitHub Issues</a> page.</li>
+    <li>Fork the repository and create pull requests for enhancements or bug fixes.</li>
+    <li>Share your feedback and ideas to improve the tool.</li>
+  </ul>
+  <h3>Development Setup</h3>
+  <pre>
+    <code>
+# Fork and clone the repository
+git clone https://github.com/yourusername/study-group-scheduler.git
+cd study-group-scheduler
+
+# Set up a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows, use venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+    </code>
+  </pre>
+</section>
+
+<footer>
+  <p>&copy; 2024 Study Group Scheduler. Built with ❤️ by [Your Name].</p>
+</footer>
+
+</body>
+</html>
